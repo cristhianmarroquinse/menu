@@ -35,7 +35,7 @@ export const MenuController = () => {
                     })
                 };
 
-                /** 4. Convert food types from objects to array. */
+                /** 4. Order array in requested order. */
                 const menu_required_order = ['appetizer', 'entree', 'dessert'];
 
                 const menu_items_reordered = menu_required_order.map((order) => {
